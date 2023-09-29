@@ -5,6 +5,9 @@ export default {
         "./src/**/*.{js,ts,jsx,tsx}",
     ],
     theme: {
+        container: {
+            center: true
+        },
         extend: {
             colors: {
                 'main-red-admin': '#E20E02',

@@ -1,12 +1,11 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { Outlet } from 'react-router-dom'
+import TopBar from '../../components/TopBar/TopBar'
 
 export default function Admin() {
     return (
-        <>
-            <Link to={'rating'}>Rating Link</Link>
-            <Outlet />
-        </>
+        <div className='flex flex-col'>
+            <TopBar />
+        </div>
     )
 }
