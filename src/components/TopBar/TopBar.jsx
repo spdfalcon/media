@@ -12,7 +12,7 @@ export default function TopBar() {
         setMenuDisplay(prevState => !prevState)
     }
     return (
-        <div className="fixed top-0 right-0 left-0 h-20 shadow-lg">
+        <div className="sticky top-0 right-0 left-0 h-20 shadow-lg">
             <div className="flex justify-between relative items-center h-full z-50 bg-second-bg-web-dark">
                 <div className="container relative flex justify-between items-center h-full ltr-theme">
                     {/* main TopBar */}
@@ -22,16 +22,16 @@ export default function TopBar() {
                         </div>
                         <div className="flex relative text-main-gray-text-admin text-2xl cursor-pointer">
                             <BiMessageSquareDetail />
-                            <span class="absolute flex h-3 w-3 -top-2 -right-2 items-center justify-center">
-                                <span class="animate-ping absolute inline-flex h-full w-full rounded-md bg-sky-200 opacity-75"></span>
-                                <span class="relative inline-flex rounded-full h-1.5 w-1.5 bg-main-red-admin"></span>
+                            <span className="absolute flex h-3 w-3 -top-2 -right-2 items-center justify-center">
+                                <span className="animate-ping absolute inline-flex h-full w-full rounded-md bg-sky-200 opacity-75"></span>
+                                <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-main-red-admin"></span>
                             </span>
                         </div>
                         <div className="flex relative text-main-gray-text-admin text-2xl cursor-pointer">
                             <BiBell />
-                            <span class="absolute flex h-3 w-3 -top-2 -right-2 items-center justify-center">
-                                <span class="animate-ping absolute inline-flex h-full w-full rounded-md bg-sky-200 opacity-75"></span>
-                                <span class="relative inline-flex rounded-full h-1.5 w-1.5 bg-main-red-admin"></span>
+                            <span className="absolute flex h-3 w-3 -top-2 -right-2 items-center justify-center">
+                                <span className="animate-ping absolute inline-flex h-full w-full rounded-md bg-sky-200 opacity-75"></span>
+                                <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-main-red-admin"></span>
                             </span>
                         </div>
                         <div className="flex items-center font-iransans h-10 w-80 bg-main-bg-web-dark rounded ml-6 overflow-hidden">
