@@ -20,7 +20,7 @@ export default function TopBar() {
     return (
         <>
             <SideBar sideBarDisplay={sideBarDisplay} sideBarDisplayHandler={sideBarDisplayHandler} />
-            <div className="sticky top-0 right-0 left-0 h-20 shadow-lg">
+            <div className="sticky z-50 top-0 right-0 left-0 h-20 shadow-lg">
                 <div className="flex justify-between relative items-center h-full z-30 bg-second-bg-web-dark">
                     <div className="container relative flex justify-between items-center h-full ltr-theme">
                         {/* main TopBar */}

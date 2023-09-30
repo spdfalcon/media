@@ -14,7 +14,7 @@ export default function SideBar({ sideBarDisplay, sideBarDisplayHandler }) {
         sideBarDisplayHandler()
     }
     return (
-        <div className={`rtl-theme h-screen group w-80 md:w-16 transition-all md:hover:w-80 flex flex-col shadow-lg bg-second-bg-web-dark ${sideBarDisplay ? "-right-0" : "-right-80"} md:right-0 top-0 z-40 absolute py-6 gap-y-10`}>
+        <div className={`rtl-theme  h-screen group w-80 md:w-16 transition-all md:hover:w-80 flex flex-col shadow-lg bg-second-bg-web-dark ${sideBarDisplay ? "-right-0" : "-right-80"} md:right-0 top-0 z-40 fixed py-6 gap-y-10`}>
             <div className="flex justify-between items-center px-4">
                 <div className="flex items-center gap-x-2">
                     <img src="/images/logo.png" className='w-8' alt="" />
