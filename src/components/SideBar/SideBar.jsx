@@ -24,8 +24,8 @@ export default function SideBar({ sideBarDisplay, sideBarDisplayHandler }) {
                     <AiOutlineClose className='text-xl text-main-red-admin cursor-pointer' onClick={closeSideBar} />
                 </div>
             </div>
-            <ul className='font-iransans h-full flex flex-col gap-y-4 overflow-y-auto overflow-x-hidden'>
-                <li className='overflow-hidden h-8 cursor-pointer hover:text-main-red-admin transition-colors flex px-4 justify-between items-center text-main-red-admin border-l-4 border-main-red-admin py-1'>
+            <ul className='font-iransans ltr-theme h-full flex flex-col gap-y-4 overflow-y-auto overflow-x-hidden'>
+                <li className='rtl-theme shrink-0 overflow-hidden h-8 cursor-pointer hover:text-main-red-admin transition-colors flex px-4 justify-between items-center text-main-red-admin border-l-4 border-main-red-admin py-1'>
                     <div className='flex items-center gap-x-2'>
                         <BiHomeAlt className='shrink-0 transition-all' />
                         <span className='line-clamp-1 visible md:invisible opacity-100 md:opacity-0 md:group-hover:opacity-100 md:group-hover:visible transition-all'>
@@ -33,7 +33,7 @@ export default function SideBar({ sideBarDisplay, sideBarDisplayHandler }) {
                         </span>
                     </div>
                 </li>
-                <li className='overflow-hidden h-8 cursor-pointer hover:text-main-red-admin transition-colors flex px-4 justify-between items-center text-main-gray-text-admin py-1'>
+                <li className='rtl-theme shrink-0 overflow-hidden h-8 cursor-pointer hover:text-main-red-admin transition-colors flex px-4 justify-between items-center text-main-gray-text-admin py-1'>
                     <div className='flex items-center gap-x-2'>
                         <BsStarFill className='shrink-0 transition-all' />
                         <span className='line-clamp-1 visible md:invisible opacity-100 md:opacity-0 md:group-hover:opacity-100 md:group-hover:visible transition-all'>
@@ -41,7 +41,7 @@ export default function SideBar({ sideBarDisplay, sideBarDisplayHandler }) {
                         </span>
                     </div>
                 </li>
-                <li className='overflow-hidden h-8 cursor-pointer hover:text-main-red-admin transition-colors flex px-4 justify-between items-center text-main-gray-text-admin py-1'>
+                <li className='rtl-theme shrink-0 overflow-hidden h-8 cursor-pointer hover:text-main-red-admin transition-colors flex px-4 justify-between items-center text-main-gray-text-admin py-1'>
                     <div className='flex items-center gap-x-2'>
                         <BiComment className='shrink-0 transition-all' />
                         <span className='line-clamp-1 visible md:invisible opacity-100 md:opacity-0 md:group-hover:opacity-100 md:group-hover:visible transition-all'>
@@ -49,7 +49,7 @@ export default function SideBar({ sideBarDisplay, sideBarDisplayHandler }) {
                         </span>
                     </div>
                 </li>
-                <li className='overflow-hidden h-8 cursor-pointer hover:text-main-red-admin transition-colors flex px-4 justify-between items-center text-main-gray-text-admin py-1'>
+                <li className='rtl-theme shrink-0 overflow-hidden h-8 cursor-pointer hover:text-main-red-admin transition-colors flex px-4 justify-between items-center text-main-gray-text-admin py-1'>
                     <div className='flex items-center gap-x-2'>
                         <BiUser className='shrink-0 transition-all' />
                         <span className='line-clamp-1 visible md:invisible opacity-100 md:opacity-0 md:group-hover:opacity-100 md:group-hover:visible transition-all'>
@@ -57,7 +57,7 @@ export default function SideBar({ sideBarDisplay, sideBarDisplayHandler }) {
                         </span>
                     </div>
                 </li>
-                <li className='overflow-hidden h-8 cursor-pointer hover:text-main-red-admin transition-colors flex px-4 justify-between items-center text-main-gray-text-admin py-1'>
+                <li className='rtl-theme shrink-0 overflow-hidden h-8 cursor-pointer hover:text-main-red-admin transition-colors flex px-4 justify-between items-center text-main-gray-text-admin py-1'>
                     <div className='flex items-center gap-x-2'>
                         <BiDockRight className='shrink-0 transition-all' />
                         <span className='line-clamp-1 visible md:invisible opacity-100 md:opacity-0 md:group-hover:opacity-100 md:group-hover:visible transition-all'>
@@ -66,7 +66,7 @@ export default function SideBar({ sideBarDisplay, sideBarDisplayHandler }) {
                     </div>
                     <BiChevronLeft className='line-clamp-1 visible md:invisible opacity-100 md:opacity-0 md:group-hover:opacity-100 md:group-hover:visible transition-all text-lg' />
                 </li>
-                <li className='overflow-hidden h-8 cursor-pointer hover:text-main-red-admin transition-colors flex px-4 justify-between items-center text-main-gray-text-admin py-1'>
+                <li className='rtl-theme shrink-0 overflow-hidden h-8 cursor-pointer hover:text-main-red-admin transition-colors flex px-4 justify-between items-center text-main-gray-text-admin py-1'>
                     <div className='flex items-center gap-x-2'>
                         <BiFilm className='shrink-0 transition-all' />
                         <span className='line-clamp-1 visible md:invisible opacity-100 md:opacity-0 md:group-hover:opacity-100 md:group-hover:visible transition-all'>
@@ -75,7 +75,7 @@ export default function SideBar({ sideBarDisplay, sideBarDisplayHandler }) {
                     </div>
                     <BiChevronLeft className='line-clamp-1 visible md:invisible opacity-100 md:opacity-0 md:group-hover:opacity-100 md:group-hover:visible transition-all text-lg' />
                 </li>
-                <li className='overflow-hidden h-8 cursor-pointer hover:text-main-red-admin transition-colors flex px-4 justify-between items-center text-main-gray-text-admin py-1'>
+                <li className='rtl-theme shrink-0 overflow-hidden h-8 cursor-pointer hover:text-main-red-admin transition-colors flex px-4 justify-between items-center text-main-gray-text-admin py-1'>
                     <div className='flex items-center gap-x-2'>
                         <PiFilmScriptBold className='shrink-0 transition-all' />
                         <span className='line-clamp-1 visible md:invisible opacity-100 md:opacity-0 md:group-hover:opacity-100 md:group-hover:visible transition-all'>
@@ -84,7 +84,7 @@ export default function SideBar({ sideBarDisplay, sideBarDisplayHandler }) {
                     </div>
                     <BiChevronLeft className='line-clamp-1 visible md:invisible opacity-100 md:opacity-0 md:group-hover:opacity-100 md:group-hover:visible transition-all text-lg' />
                 </li>
-                <li className='overflow-hidden h-8 cursor-pointer hover:text-main-red-admin transition-colors flex px-4 justify-between items-center text-main-gray-text-admin py-1'>
+                <li className='rtl-theme shrink-0 overflow-hidden h-8 cursor-pointer hover:text-main-red-admin transition-colors flex px-4 justify-between items-center text-main-gray-text-admin py-1'>
                     <div className='flex items-center gap-x-2'>
                         <RiPriceTagLine className='shrink-0 transition-all' />
                         <span className='line-clamp-1 visible md:invisible opacity-100 md:opacity-0 md:group-hover:opacity-100 md:group-hover:visible transition-all'>
@@ -92,7 +92,7 @@ export default function SideBar({ sideBarDisplay, sideBarDisplayHandler }) {
                         </span>
                     </div>
                 </li>
-                <li className='overflow-hidden h-8 cursor-pointer hover:text-main-red-admin transition-colors flex px-4 justify-between items-center text-main-gray-text-admin py-1'>
+                <li className='rtl-theme shrink-0 overflow-hidden h-8 cursor-pointer hover:text-main-red-admin transition-colors flex px-4 justify-between items-center text-main-gray-text-admin py-1'>
                     <div className='flex items-center gap-x-2'>
                         <CgDisplaySpacing className='shrink-0 transition-all' />
                         <span className='line-clamp-1 visible md:invisible opacity-100 md:opacity-0 md:group-hover:opacity-100 md:group-hover:visible transition-all'>
