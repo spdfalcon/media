@@ -13,7 +13,14 @@
         direction: rtl;
         text-align: right;
     }
-    .p-admin {
-        width: calc(100% - 80px);
+
+    .p-main {
+        width: calc(100% - 64px);
+    }
+
+    @media (max-width: 768px) {
+        .p-main {
+            width: 100%
+        }
     }
 }
