@@ -4,7 +4,7 @@ import TopBar from '../../components/TopBar/TopBar'
 
 export default function Admin() {
     return (
-        <div className='flex flex-col'>
+        <div className='flex flex-col relative'>
             <TopBar />
         </div>
     )

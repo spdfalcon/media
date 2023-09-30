@@ -4,7 +4,7 @@ import { BiMessageSquareDetail, BiBell, BiSearch } from 'react-icons/bi'
 export default function TopBarMobieContent({ menuDisplay }) {
     return (
         <div className={`container flex items-center gap-x-5 md:hidden z-10 absolute left-0 right-0 h-20 shadow-md bg-main-bg-web-dark transition-all ${menuDisplay ? 'top-20': 'top-0'}`}>
-            <div className='flex h-12 w-12 rounded-full overflow-hidden cursor-pointer mr-4'>
+            <div className='flex h-12 w-12 rounded-full overflow-hidden cursor-pointer mr-4 shrink-0'>
                 <img src="/images/profile.jpg" alt="" />
             </div>
             <div className="flex relative text-main-gray-text-admin text-2xl cursor-pointer">
