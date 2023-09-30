@@ -6,8 +6,10 @@ export default function Admin() {
     return (
         <div className='flex flex-col relative ltr-theme'>
             <TopBar />
-            <div className="p-main rtl-theme">
-                ممد جون این دیو برا توعه
+            <div className="container rtl-theme">
+                <div className="p-main bg-green-600">
+                    ممد جون این دیو برا توعه
+                </div>
             </div>
         </div>
     )

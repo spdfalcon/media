@@ -15,12 +15,14 @@
     }
 
     .p-main {
-        width: calc(100% - 64px);
+        width: calc(100%);
+        margin: auto;
+        padding-right: 64px;
     }
 
     @media (max-width: 768px) {
         .p-main {
-            width: 100%
+            padding: 0;
         }
     }
 }
